@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #CCFFCC;
+    padding: 20px;
+    color: grey;
+}
+.grid {
+    display: grid;
+}
+.grid .details {
+    background-color: #99ff99;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.details span {
+    font-weight: 300;
+}
+.header {
+    display: flex;
+    align-items: center;
+    color: black;
+    padding-bottom: 20px;
+}
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.filter .form-control input {
+    background-color: transparent;
+    padding: 8px;
+    color: grey;
+    border-radius: 5px;
+}
+.filter .region-filter .select {
+    background-color: transparent;
+    color: grey;
+    padding: 8px;
+    border-radius: 5px;
+}
